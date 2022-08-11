@@ -1,0 +1,80 @@
+* {
+  font-size: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+legend {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Cabeçalho */
+.header-logo {
+  font-size: 1.5rem;
+}
+.header-foto-perfil {
+  width: 200px;
+  border-radius: 8px;
+  border: #000000 solid 2px;
+}
+.header-paragrafo {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* contato */
+.contato a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* portfolio */
+.portfolio {
+  gap: 0px;
+}
+.portfolio-item a img {
+  padding: 0rem;
+  border: 2px solid #000000;
+  border-radius: 10px !important;
+}
+
+.hover:hover {
+  color: blueviolet !important;
+}
+
+.hover2:hover {
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: #ffffff !important;
+}
+.hover2 i:hover {
+  color: #ffffff !important;
+}
+
+/* Rodapé */
+.footer h4 {
+  color: blueviolet !important;
+}
+
+.link-footer {
+  color: #ffffff !important;
+}
+
+.link-footer:hover {
+  color: blueviolet !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .header-navegacao {
+    padding: 1rem 0.5rem !important;
+  }
+  .sobre,
+  .formulario {
+    padding: 1rem !important;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+}
